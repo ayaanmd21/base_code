@@ -2,6 +2,7 @@ package com.dehaat.dehaatassignment.model;
 
 import android.app.Application;
 import android.content.Context;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 
@@ -31,7 +32,10 @@ public class LoginViewModel extends AndroidViewModel {
         appRestClient.getInstance(context).getAppRestClientService().login(user).enqueue(new Callback<LoginResponse>() {
             @Override
             public void onResponse(Call<LoginResponse> call, Response<LoginResponse> response) {
-                userResponse.postValue(response.body());
+                if(response.body()!=null){
+
+                    userResponse.postValue(response.body());
+                }
             }
 
             @Override
