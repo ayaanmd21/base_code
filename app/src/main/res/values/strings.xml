@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">DeHaatAssignment</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="dehaat">DeHaat</string>
+    <string name="login">Login</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="error_required_email">Email can not be empty</string>
+    <string name="error_invalid_email">Email is not valid</string>
+    <string name="error_required_password">Password can not be empty</string>
+    <string name="logout">Logout</string>
+    <string name="read_more">read more...</string>
+    <string name="expand">Expand</string>
+    <string name="book_title">Book Title :</string>
+    <string name="price">Price :</string>
+    <string name="publisher">Publisher :</string>
+    <string name="published">Date :</string>
+</resources>
